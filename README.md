@@ -40,4 +40,5 @@ bun run index.ts
 ![alt text](capturas/inicio_servidor_1.png)
 ![alt text](capturas/servidor_2.png)
 
-2. 
+2. Crear commits con fix, feat, refactor, chore, perf
+![alt text](image.png)

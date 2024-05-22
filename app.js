@@ -59,6 +59,20 @@ app.patch('/events/:id', async (req, res) => {
   }
 });
 
+/**
+ * app.delete('/events/:id', async (req, res) => {
+  try {
+    const event = await Event.findByIdAndDelete(req.params.id);
+    if (!event) {
+      return res.status(404).send();
+    }
+    res.send(event);
+  } catch (error) {
+    res.status(500).send(error);
+  }
+});
+ */
+
 app.delete('/events/:id', async (req, res) => {
   try {
     const event = await Event.findByIdAndDelete(req.params.id);

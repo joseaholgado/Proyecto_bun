@@ -60,9 +60,7 @@ app.patch('/events/:id', async (req, res) => {
 });
 
 /**
- * app.delete('/events/:id', async (req, res) => {
-  try {
-  
+ * 
  */
 
 app.delete('/events/:id', async (req, res) => {

@@ -1,44 +1,79 @@
-# API de Eventos Históricos
+# Historical Events API
 
-Este proyecto es una API RESTful desarrollada con Express y Mongoose que gestiona una base de datos de eventos que cambiaron la humanidad. Permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre los eventos históricos almacenados en MongoDB.
+This project is a RESTful API developed with Express and Mongoose that manages a database of events that changed humanity. It allows performing CRUD (Create, Read, Update, Delete) operations on the historical events stored in MongoDB.
 
-## Inicio Rápido
+## Quick Start
 
-Para ejecutar este proyecto localmente, necesitarás tener instalado Node.js y MongoDB en tu sistema.
+To run this project locally, you will need to have Node.js and MongoDB installed on your system.
 
-### Requisitos Previos
+### Prerequisites
 
 - Node.js
 - npm (Node Package Manager)
 - MongoDB
 
+## Installation and Setup
 
-# bun
-
-Para instalar dependencias:
-
-```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run index.ts
-```
-
-### Instalación
-
-1. Clona el repositorio en tu máquina local:
+1. **Clone the repository**:
    ```bash
-   git clone https://github.com/joseaholgado/Proyecto-con-Bun.git
-   cd ruta_al_repositorio
+   git clone https://github.com/joseaholgado/Proyecto_bun.git
+   cd Proyecto_bun
 
-## Capturas de los ejercicios
+2. **Install Bun:**:
+   ```bash
+   curl https://bun.sh/install | bash
 
-1. Crear un repositorio y recrear el desafío Node y Express usando solo Bun
-![alt text](capturas/inicio_servidor_1.png)
-![alt text](capturas/servidor_2.png)
 
-2. Crear commits con fix, feat, refactor, chore, perf
+3. **Install dependencies:**:
+   ```bash
+   bun install
+
+
+4. **Run MongoDB:**:
+   ```bash
+   mongod
+
+
+5. **Run the server:**:
+   ```bash
+   bun run index.mjs
+
+# Making Commits
+
+To maintain a clean and understandable commit history, use the following types of commits:
+
+    fix: Commits that fix a bug.
+    feat: Commits that introduce a new feature.
+    refactor: Commits that refactor code without changing functionality.
+    chore: Commits for minor tasks and maintenance.
+    perf: Commits that improve performance.
+
+## Example of Making Commits
+
+1. Stage your changes:  
+    ```bash
+    git add .
+
+2. Make a commit:
+    ```bash
+    git commit -m "fix: correct the server start command"
+
+3. Push your changes to GitHub:
+    ```bash
+    git push origin main
+
+## Exercise Screenshots
+
+1. Create a repository and recreate the Node and Express challenge using only Bun
+
+![alt text](captures/inicio_servidor_1.png)
+
+![alt text](captures/servidor_2.png)
+
+2. Create commits with fix, feat, refactor, chore, perf
+
 ![alt text](image.png)
+
+## Repository
+https://github.com/joseaholgado/Proyecto_bun
+

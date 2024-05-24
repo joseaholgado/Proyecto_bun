@@ -1,7 +1,9 @@
 {
   "name": "bun",
-  "module": "index.ts",
+  "module": "index.mjs",
   "type": "module",
+  "description": "Telegram Bot Project for managing historical events",
+  "author": "Jose Antonio Holgado",
   "devDependencies": {
     "@types/bun": "latest"
   },
